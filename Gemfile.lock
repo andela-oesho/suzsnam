@@ -1,0 +1,31 @@
+PATH
+  remote: ../pesuz
+  specs:
+    pesuz (0.1.0)
+      erubis
+      pry
+      rack (~> 1.0)
+      tilt
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.1)
+    erubis (2.7.0)
+    method_source (0.8.2)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (1.6.4)
+    slop (3.6.0)
+    tilt (2.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pesuz!
+
+BUNDLED WITH
+   1.11.2
