@@ -35,7 +35,23 @@
         </nav>
       </div>
       <main class="mdl-layout__content">
-        <div class="page-content"><!-- Your content goes here --></div>
+        <div class="page-content">
+
+        <form action="/todo/create" method="post">
+            <legend>Title</legend>
+            <div class="mui-textfield">
+              <input type="text" placeholder="Input 1" name="name">
+            </div>
+            <div>
+            &nbsp;
+            </div>
+            <div class="mui-textfield">
+              <textarea placeholder="Textarea" name="body"></textarea>
+            </div>
+            <button type="submit" class="mui-btn mui-btn--raised">Submit</button>
+          </form>
+
+        <!-- Your content goes here --></div>
       </main>
     </div>
   </body>
